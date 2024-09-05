@@ -36,3 +36,18 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+
+Sources:
+
+https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/ - explained asymptotic analysis further and how different algorithms react with their respective analysis.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+
+
+The average time complexity is equal to O(n^2) which is the same as the worst case as they both have to do the same thing. Being that with an average case where the array foresay could be 50% sorted, both of the for loops still have to run n times in order for the elements to be sorted. This turns out to be n * n (inner for loop * outer for loop) which gives us n^2 being the average. 
+
+
+
+
