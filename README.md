@@ -36,3 +36,15 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The time complexity of insertion sort is the same as the worst case being n^2. This is because even in the average case where foresay 50% of the array is already sorted, both of the inner and outer four loops will still have to run "n" times. Being that they're both running at n, this makes it n * n where n^2 is the outcome. 
+
+
+
+Sources:
+https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/ - used to further explain time complexity
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
+
+
+
