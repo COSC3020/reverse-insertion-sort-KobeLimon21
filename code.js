@@ -11,7 +11,5 @@ return array;
 }
 
 
-let arr = [5,2,3,4,7];
-console.log(insertionSortReverse(arr)); 
     
 
